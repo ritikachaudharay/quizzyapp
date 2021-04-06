@@ -1,0 +1,9 @@
+{
+    "rules": [
+        "There are 30 questions divided equally into 1 run 2 runs 3 runs 4 runs and 6 runs. The difficulty of the question is directly proportional to the runs assigned to them.",
+        "Contestant will select the runs. If they answer it right they score the runs if they get it wrong they lose a wicket",
+        "Lose 5 wickets and you will be eliminated from the game.",
+        "The goal is to score maximum runs while losing least wickets possible.",
+        "In case contestant want to leave the quiz in middle contestant can declare."
+    ]
+}

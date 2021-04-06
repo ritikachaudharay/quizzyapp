@@ -1,0 +1,12 @@
+.rules-box{
+    
+    margin: 0 auto;
+    width: 1000px;
+    background: rgb(28, 138, 228);
+
+}
+.rules-list li {
+    font-size: 24px;
+    color : yellow;
+    padding: 15px ;
+}
