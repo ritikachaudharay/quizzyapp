@@ -1,0 +1,19 @@
+.rules-heading{
+    color: rgb(28, 138, 228);
+    text-align: center;
+}
+
+
+.rules-button{
+    font-size: medium;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(42, 184, 136);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
