@@ -5,16 +5,20 @@ import { connect } from 'react-redux';
 import { loadRules } from './State/action.js'
 import { useEffect } from 'react';
 
-function Rules({ loadRules, quizRules }) {
+function Rules({ loadRules, quizRules, history }) {
     useEffect(() => {
         loadRules()
     }, [])
+
+    const goToStartRoute = () => {
+        history.push('/start');
+    }
 
     return (
         <>
             <h1 className="rules-heading">RULES</h1>
             <RulesBox rules={quizRules} />
-            <Button label="PLAY" buttonStyles="rules-button" />
+            <Button label="PLAY" buttonStyles="rules-button" onClickHandler={goToStartRoute} />
 
         </>
     );

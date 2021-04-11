@@ -1,6 +1,6 @@
 function Button(props) {
     return (
-        <button className={props.buttonStyles}>{props.label}</button>
+        <button onClick={props.onClickHandler} className={props.buttonStyles}>{props.label}</button>
     );
 }
 

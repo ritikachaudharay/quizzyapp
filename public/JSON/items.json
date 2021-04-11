@@ -1,0 +1,364 @@
+{
+    "items": [
+        {
+            "id": "5ea1f712-fc18-40ae-9dc9-89081997310d",
+            "question": "What is the maximum number of teams that have played in single edition of IPL?",
+            "answer": "10",
+            "options": [
+                "8",
+                "9",
+                "10",
+                "7"
+            ],
+            "difficultyLevel": "1"
+        },
+        {
+            "id": "5588a017-c8e6-4b09-9aea-44322eaf4f88",
+            "question": "What name is given to test matches between Australia and England?",
+            "answer": "Ashes",
+            "options": [
+                "Ashes",
+                "Border-Gavaskar Trophy",
+                "Natwest Series",
+                "Commonwealth Bank Series"
+            ],
+            "difficultyLevel": "1"
+        },
+        {
+            "id": "86e85994-6e8a-4836-a5bd-2e6bce502ce1",
+            "question": "Which player holds the record for highest individual score in a test inning?",
+            "answer": "Brian Lara",
+            "options": [
+                "Brian Lara",
+                "Mathew Hayden",
+                "Virendra Sehwag",
+                "Mahela Jayawardne"
+            ],
+            "difficultyLevel": "1"
+        },
+        {
+            "id": "9ccaf561-ca17-4cb4-ad0b-363cb459dcf3",
+            "question": "Which team was the first team to win 50 over world cup as host nation?",
+            "answer": "Sri Lanka",
+            "options": [
+                "India",
+                "Australia",
+                "Sri Lanka",
+                "England"
+            ],
+            "difficultyLevel": "2"
+        },
+        {
+            "id": "cf021ea9-13d4-44fb-9f57-97b2bc4c9caa",
+            "question": "Which bowler has most hat-tricks in ODI cricket?",
+            "answer": "Lasith Malinga",
+            "options": [
+                "Brett Lee",
+                "Lasith Malinga",
+                "Wasim Akram",
+                "Muttiah Muralidaran"
+            ],
+            "difficultyLevel": "2"
+        },
+        {
+            "id": "d0cc8e40-c716-4a5e-9471-4ddcc70c39a6",
+            "question": "Which indian bowler has best bowling figures in a test inning?",
+            "answer": "Anil Kumble",
+            "options": [
+                "Kapil Dev",
+                "Harbhajan Singh",
+                "Jasprit Bumrah",
+                "Anil Kumble"
+            ],
+            "difficultyLevel": "1"
+        },
+        {
+            "id": "92eec856-0f5e-41b8-b845-ec48306ccc8f",
+            "question": "Amongst left arm spinners which player has most ODI wickets?",
+            "answer": "Sanath Jayasuria",
+            "options": [
+                "Rangana Herath",
+                "Shakib-al-Hasan",
+                "Sanath Jayasuria",
+                "Nicky Boje"
+            ],
+            "difficultyLevel": "3"
+        },
+        {
+            "id": "aafdb6e-a451-4944-ba58-29b563ff416a",
+            "question": "Which team finished last in IPL 2009 season?",
+            "answer": "KKR",
+            "options": [
+                "RCB",
+                "RR",
+                "KKR",
+                "KXIP"
+            ],
+            "difficultyLevel": "2"
+        },
+        {
+            "id": "88d36a56-d459-4eec-8576-cbeb6f2e7156",
+            "question": "Who became the first bowler to take 400 wickets in both tests and OdIs?",
+            "answer": "Wasim Akram",
+            "options": [
+                "Muttiah Muralidaran",
+                "Wasim Akram",
+                "Glenn Mcgrath",
+                "Chaminda Vaas"
+            ],
+            "difficultyLevel": "3"
+        },
+        {
+            "id": "068db50d-4cd1-42dc-a674-03bf279ecebc",
+            "question": "Which batsman has most runs in ODI cricket without scoring a century?",
+            "answer": "Misbah-ul-Haq",
+            "options": [
+                "Mark Boucher",
+                "Heath Streak",
+                "Misbah-ul-Haq",
+                "Graham Thorpe"
+            ],
+            "difficultyLevel": "6"
+        },
+        {
+            "id": "87fba552-f0a2-4933-bd55-193660f6ec34",
+            "question": "Who is the only bowler to take a hat-trick on his birthday?",
+            "answer": "Misbah-ul-Haq",
+            "options": [
+                "Stuart Broad",
+                "Peter Siddle",
+                "Lasith Malinga",
+                "Jason Gillespe"
+            ],
+            "difficultyLevel": "6"
+        },
+        {
+            "id": "277a4661-2cd9-4178-a0d0-8f8b4edd25dc",
+            "question": "Who was the captain of indian cricket team, when Sachin Tendulkar was denied a double century as the innings was declared by the then captain?",
+            "answer": "Rahul Dravid",
+            "options": [
+                "Sourav Ganguly",
+                "Anil Kumble",
+                "Rahul Dravid",
+                "MS Dhoni"
+            ],
+            "difficultyLevel": "3"
+        },
+        {
+            "id": "4b01fa54-481d-428b-8bf4-01ec4112d44b",
+            "question": "Which cricketer holds the record for fastest Indian to 50, 150, 200, 250 ODI wickets?",
+            "answer": "Ajit Agarkar",
+            "options": [
+                "Zaheer Khan",
+                "Kapil Dev",
+                "Harbhajan Singh",
+                "Ajit Agarkar"
+            ],
+            "difficultyLevel": "4"
+        },
+        {
+            "id": "ade7e299-b9db-4ee8-9d82-4a8e3f8c4746",
+            "question": "Only 3 Indians have batted on all 5 days of test cricket, Ml Jaisimha, Ravi Shastri and one more. Identify the third player.",
+            "answer": "Cheteshwar Pujara",
+            "options": [
+                "Cheteshwar Pujara",
+                "VVS Laxman",
+                "Ajinkya Rahane",
+                "Sachin Tendulkar"
+            ],
+            "difficultyLevel": "4"
+        },
+        {
+            "id": "d3ccd757-5a48-4a45-9361-bbd4bfeb6b82",
+            "question": "After which year BCCI added ban on players to prevent them in participating in more than 1 u19 world cup?",
+            "answer": "2016",
+            "options": [
+                "2014",
+                "2016",
+                "2018",
+                "2010"
+            ],
+            "difficultyLevel": "4"
+        },
+        {
+            "id": "bf4d43ca-4fd6-41e4-9263-ca1f4d844e7b",
+            "question": "Name India's domestic 20 over tournament.",
+            "answer": "Syed Mushtaq Ali Trophy",
+            "options": [
+                "Vijay Hazare Trophy",
+                "Syed Mushtaq Ali Trophy",
+                "Deodhar Trophy",
+                "Ranji Trophy"
+            ],
+            "difficultyLevel": "3"
+        },
+        {
+            "id": "d05438df-1168-452f-ab7e-bf393c42238d",
+            "question": "Which player has hit most sixes in test cricket?",
+            "answer": "Brendon Mccullum",
+            "options": [
+                "Chris Gayle",
+                "Adam Gilchrist",
+                "Brendon Mccullum",
+                "Virendra Sehwag"
+            ],
+            "difficultyLevel": "6"
+        },
+        {
+            "id": "855fecfc-9429-4c75-9f2e-60e9c46c0d30",
+            "question": "Name the active player who holds the record for most number of matches without ducks in T20I career.",
+            "answer": "David Miller",
+            "options": [
+                "Eoin Morgan",
+                "Quinton De Kock",
+                "Tom Latham",
+                "David Miller"
+            ],
+            "difficultyLevel": "6"
+        },
+        {
+            "id": "b5ccdae9-36b7-47ab-bcfc-789711de276d",
+            "question": "Who is the only batsman to have carried his bat through a test innings thrice in his career?",
+            "answer": "Dean Elgar",
+            "options": [
+                "Sunil Gavaskar",
+                "Dean Elgar",
+                "Justin Langer",
+                "Zaheer Abbas"
+            ],
+            "difficultyLevel": "6"
+        },
+        {
+            "id": "76532596-06e3-424f-8150-04b40b643a2c",
+            "question": "What is the name of trophy of test series between India and Australia?",
+            "answer": "Border-Gavaskar Trophy",
+            "options": [
+                "Ashes",
+                "Border-Gavaskar Trophy",
+                "Natwest Series",
+                "Commonwealth Bank Series"
+            ],
+            "difficultyLevel": "1"
+        },
+        {
+            "id": "0fed534f-b7da-4cd8-98f5-46fb4fe035d4",
+            "question": "Who is the only player to take a wicket on the 0th delivery of his T20I career?",
+            "answer": "Virat Kohli",
+            "options": [
+                "Aaron Finch",
+                "Virat Kohli",
+                "Anrich Nortje",
+                "Lendl Simmons"
+            ],
+            "difficultyLevel": "6"
+        },
+        {
+            "id": "33b7c1f4-c503-4cf5-b5dc-95d9541df891",
+            "question": "Which indian player has been a part of a IPL winning team most number of times?",
+            "answer": "Rohit Sharma",
+            "options": [
+                "Rohit Sharma",
+                "MS Dhoni",
+                "Piyush Chawla",
+                "Shane Watson"
+            ],
+            "difficultyLevel": "2"
+        },
+        {
+            "id": "ee7f24c3-20fc-4acc-a8fa-c0aaf74dbe15",
+            "question": "If every batsman in an innings gets bowled on the first ball, then which batsmen will remain not out at the end of the innings?",
+            "answer": "Number 8",
+            "options": [
+                "Number 2",
+                "Number 8",
+                "Number 10",
+                "Number 11"
+            ],
+            "difficultyLevel": "3"
+        },
+        {
+            "id": "a81f7557-d2fe-4f06-a892-d3730561d772",
+            "question": "Which Sri Lankan bowler has claimed a hat trick in 2 legal balls?",
+            "answer": "Isuru Udana",
+            "options": [
+                "Chaminda Vaas",
+                "Isuru Udana",
+                "Lasith Malinga",
+                "Akila Dhananjaya"
+            ],
+            "difficultyLevel": "4"
+        },
+        {
+            "id": "1aa78fcc-f7ed-408a-91c2-cf2aae144d8e",
+            "question": "Who caught Steve Waugh in his last international match?",
+            "answer": "Sachin Tendulkar",
+            "options": [
+                "Anil Kumble",
+                "Rahul Dravid",
+                "Parthiv Patel",
+                "Sachin Tendulkar"
+            ],
+            "difficultyLevel": "3"
+        },
+        {
+            "id": "7c4e6adf-34aa-4e67-bc68-9ac56529238e",
+            "question": "How many times has India won u19 world cup?",
+            "answer": "4",
+            "options": [
+                "3",
+                "5",
+                "4",
+                "2"
+            ],
+            "difficultyLevel": "2"
+        },
+        {
+            "id": "f6da93d5-fbf3-4d70-974b-1c88c479ed2f",
+            "question": "What is the term for a batsmen dismissed on very first ball of his innings?",
+            "answer": "Golden Duck",
+            "options": [
+                "King Pair",
+                "Golden Duck",
+                "Hit Wicket",
+                "Diamond Duck"
+            ],
+            "difficultyLevel": "1"
+        },
+        {
+            "id": "ed86e98a-ae83-40c3-9f2f-bbf76bbc98fb",
+            "question": "Against which team Sachin Tendulkar scored his highest individual score in ODI cricket?",
+            "answer": "South Africa",
+            "options": [
+                "Pakistan",
+                "England",
+                "Australia",
+                "South Africa"
+            ],
+            "difficultyLevel": "2"
+        },
+        {
+            "id": "f790ac09-2185-4eb2-b6f0-5855b55028f1",
+            "question": "Who was the first concussion substitute in cricket?",
+            "answer": "Marnus Labuschagne",
+            "options": [
+                "Mehidy Hasan",
+                "Kl Rahul",
+                "Marnus Labuschagne",
+                "Taijul Islam"
+            ],
+            "difficultyLevel": "4"
+        },
+        {
+            "id": "2f1229ee-e84d-4c55-a8cb-730cf477c551",
+            "question": "Shane Warne, Aravinda De Silva and one more player are the only cricketers to be man of the match in semi-final and final of a cricket world cup. Identify the third player.",
+            "answer": "Mohinder Amarnath",
+            "options": [
+                "Sir Clive Lloyd",
+                "Wasim Akram",
+                "Mohinder Amarnath",
+                "Sir Viv Richards"
+            ],
+            "difficultyLevel": "4"
+        }
+    ]
+}
