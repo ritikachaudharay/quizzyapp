@@ -1,0 +1,11 @@
+.ques-deck-container{
+    background: rgb(28, 138, 228);
+    width: 850px;
+    display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  padding: 50px;
+}

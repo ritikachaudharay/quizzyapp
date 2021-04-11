@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import Start from './Pages/Start';
+import Game from './Pages/Game';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Rules} />
             <Route exact path="/start" component={Start} />
+            <Route exact path="/game" component={Game} />
           </Switch>
 
         </Provider>
