@@ -3,7 +3,7 @@ import './questionIcon.css';
 function QuestionIcon({ item }) {
     return (
         <div className='ques-icon'>
-            {item.difficultyLevel} Runs
+         <p className='ques-diff'>{item.difficultyLevel} {item.difficultyLevel == 1 ? 'Run' :'Runs'}</p>
         </div>
     )
 }

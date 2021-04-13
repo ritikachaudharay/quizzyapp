@@ -2,4 +2,12 @@
     height: 100px;
     width: 100px;
     background-color: #feae02;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.ques-diff{
+    color: rgb(28, 138, 228);
+    font-size: 24px;
+    font-weight: bold;
 }
