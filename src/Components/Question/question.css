@@ -1,0 +1,32 @@
+.submit-button{
+    font-size: medium;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(42, 184, 136);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.question{
+   
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.option{
+    margin: 20px 0;
+    
+}
+
+.option-label{
+    margin-left: 10px;
+}
+
+.ques-component{
+    margin: 70px auto;
+    width: 1000px;
+}

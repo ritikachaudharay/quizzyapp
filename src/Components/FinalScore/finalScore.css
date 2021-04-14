@@ -1,0 +1,17 @@
+.exit-button{
+    font-size: xx-large;
+    font-weight: bold;
+    display: block;
+    width: 250px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 0 auto;
+}
+.final-score-container{
+    margin: 70px auto;
+    width: 1000px;
+}
