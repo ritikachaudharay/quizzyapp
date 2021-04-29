@@ -18,6 +18,15 @@ function Game({ loadItems, quizItems, history }) {
 
     useEffect(() => {
         loadItems();
+        if(localStorage.getItem('score')!==undefined){
+        localStorage.setItem('score',0);
+        }
+        if(localStorage.getItem('wickets')!==undefined){
+        localStorage.setItem('wickets',0);
+        }
+        if(localStorage.getItem('usedQuestions')!== undefined){
+        localStorage.setItem('usedQuestions','[]');
+        }
     }, [])
 
 
@@ -60,6 +69,7 @@ function Game({ loadItems, quizItems, history }) {
             <div className='game-components'>
                 <Button buttonStyles='declare-button' label='Declare' onClickHandler={displayFinalScore}/>
                 <QuestionDeck quizItems={quizItems} displayQuestion={displayQuestion}/>
+                <p className='score'>Score: {localStorage.getItem('score')}/{localStorage.getItem('wickets')}</p>
             </div>
 
         </> }
