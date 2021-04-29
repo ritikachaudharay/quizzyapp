@@ -1,7 +1,16 @@
 import Button from '../Button/index.js';
 import './question.css';
+import {useState} from 'react';
 
 function Qustion({selectedQuestion, displayAnswer}){
+    const [enableButton, setEnableButton] = useState(false);
+
+    const selectAnswer=(event)=>{
+        setEnableButton(true);
+        console.log("hiiiiiiiii...event.", event.target.value);
+
+    }
+
 return (
     selectedQuestion ? 
     <>
@@ -11,14 +20,14 @@ return (
     {selectedQuestion.options.map((option,index)=>{
         return (
             <div key={index}>
-            <input type="radio" id={option} name="option" value={option} className='option'/>
+            <input type="radio" id={option} name="option" value={option} className='option' onChange={selectAnswer}/>
             <label for={option} className='option-label'>{option}</label><br />
             </div>
         )
     })}
    
     </div>
-    <Button buttonStyles={'submit-button'} label={'SUBMIT'} onClickHandler={displayAnswer}/>
+    <Button buttonStyles={'submit-button'} label={'SUBMIT'} onClickHandler={displayAnswer} enableButton={!enableButton}/>
     </> : <></>
 )
 }

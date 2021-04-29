@@ -11,6 +11,9 @@
     border-radius: 8px;
     outline: none;
 }
+.submit-button:disabled{
+    opacity: 0.5;
+}
 .question{
    
     font-weight: bold;
