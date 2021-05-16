@@ -4,10 +4,12 @@ import {useState} from 'react';
 
 function Qustion({selectedQuestion, displayAnswer}){
     const [enableButton, setEnableButton] = useState(false);
+    const [selectedAnswer, setSelectedAnswer]=useState(null);
 
     const selectAnswer=(event)=>{
         setEnableButton(true);
-        console.log("hiiiiiiiii...event.", event.target.value);
+        //console.log("hiiiiiiiii...event.", event.target.value);
+        setSelectedAnswer(event.target.value);
 
     }
 
@@ -27,7 +29,7 @@ return (
     })}
    
     </div>
-    <Button buttonStyles={'submit-button'} label={'SUBMIT'} onClickHandler={displayAnswer} enableButton={!enableButton}/>
+    <Button buttonStyles={'submit-button'} label={'SUBMIT'} onClickHandler={()=>displayAnswer(selectedQuestion,selectedAnswer)} enableButton={!enableButton}/>
     </> : <></>
 )
 }
