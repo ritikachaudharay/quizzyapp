@@ -18,13 +18,13 @@ function Game({ loadItems, quizItems, history }) {
 
     useEffect(() => {
         loadItems();
-        if(localStorage.getItem('score')!==undefined){
+        if(localStorage.getItem('score')===null){
         localStorage.setItem('score',0);
         }
-        if(localStorage.getItem('wickets')!==undefined){
+        if(localStorage.getItem('wickets')===null){
         localStorage.setItem('wickets',0);
         }
-        if(localStorage.getItem('usedQuestions')!== undefined){
+        if(localStorage.getItem('usedQuestions')=== null){
         localStorage.setItem('usedQuestions','[]');
         }
     }, [])
@@ -37,11 +37,24 @@ function Game({ loadItems, quizItems, history }) {
             return item.id ===id ;
         })
         setSelectedQuestion(selQuestion);
+        const selectedQuestions = JSON.parse(localStorage.getItem('usedQuestions'));
+        selectedQuestions.push(id);
+        localStorage.setItem('usedQuestions',JSON.stringify(selectedQuestions));
         
     }
 
 
-    const displayAnswer=()=>{
+    const displayAnswer=(selectedItem,userAnswer)=>{
+        if(selectedItem.answer===userAnswer){
+            const prevScore=JSON.parse(localStorage.getItem('score'));
+            const newScore=prevScore+ parseInt(selectedItem.difficultyLevel);
+            localStorage.setItem('score',newScore);
+        }
+        else{
+            const prevWicket =JSON.parse(localStorage.getItem('wickets'));
+            const newWickets = prevWicket+1;
+            localStorage.setItem('wickets',newWickets)
+        }
         setShowAnswer(true);
         setShowQuestion(false);
     }
@@ -58,6 +71,9 @@ function Game({ loadItems, quizItems, history }) {
     }
 
     const goToRulesRoute=()=>{
+        localStorage.setItem('score',0);
+        localStorage.setItem('wickets',0);
+        localStorage.setItem('usedQuestions','[]');
         history.push('/')
     }
 
@@ -74,7 +90,7 @@ function Game({ loadItems, quizItems, history }) {
 
         </> }
        { showQuestion && <Question selectedQuestion={selectedQuestion} displayAnswer={displayAnswer}/>}
-       {showAnswer && <Answer answer={selectedQuestion.answer} displayQuestionDeck={displayQuestionDeck}/>}
+       {showAnswer && <Answer answer={selectedQuestion.answer} displayQuestionDeck={displayQuestionDeck} displayFinalScore={displayFinalScore}/>}
        {showFinalScore && <FinalScore goToRulesRoute={goToRulesRoute}/>}
        </>
 
