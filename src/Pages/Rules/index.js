@@ -7,7 +7,12 @@ import { useEffect } from 'react';
 
 function Rules({ loadRules, quizRules, history }) {
     useEffect(() => {
-        loadRules()
+        if(localStorage.getItem('name')!== null){
+            history.push('/game');
+        }else{
+            loadRules()
+        }
+        
     }, [])
 
     const goToStartRoute = () => {
