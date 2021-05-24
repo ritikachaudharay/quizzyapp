@@ -1,9 +1,14 @@
 import './Start.css';
 import Button from '../../Components/Button';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function Start({ history }) {
 
+    useEffect(()=>{
+        if(localStorage.getItem('name')!== null){
+            history.push('/game');
+        }
+    },[])
 
 
     const [userName, setUserName] = useState(null);
@@ -16,7 +21,7 @@ function Start({ history }) {
     const goToGameRoute = () => {
 
         if (validateUserName()) {
-            sessionStorage.setItem("name", userName);
+            localStorage.setItem("name", userName);
 
             history.push('/game');
 

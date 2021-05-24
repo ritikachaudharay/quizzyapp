@@ -17,6 +17,14 @@ function Game({ loadItems, quizItems, history }) {
     const [showFinalScore, setShowFinalScore] = useState(false);
 
     useEffect(() => {
+
+        const usedQuestions= JSON.parse(localStorage.getItem('usedQuestions'));
+        const wickets = JSON.parse(localStorage.getItem('wickets'));
+
+        if(wickets>=3|| usedQuestions && usedQuestions.length===30){
+            displayFinalScore();
+        }
+
         loadItems();
         if(localStorage.getItem('score')===null){
         localStorage.setItem('score',0);
@@ -33,18 +41,25 @@ function Game({ loadItems, quizItems, history }) {
     const displayQuestion=(id)=>{
         setShowQuestionDeck(false);
         setShowQuestion(true);
+
         const selQuestion = quizItems.items.find((item)=>{
             return item.id ===id ;
         })
         setSelectedQuestion(selQuestion);
-        const selectedQuestions = JSON.parse(localStorage.getItem('usedQuestions'));
-        selectedQuestions.push(id);
-        localStorage.setItem('usedQuestions',JSON.stringify(selectedQuestions));
+
+        
         
     }
 
 
     const displayAnswer=(selectedItem,userAnswer)=>{
+
+       
+        const selectedQuestions = JSON.parse(localStorage.getItem('usedQuestions'));
+        selectedQuestions.push(selectedItem.id );
+        localStorage.setItem('usedQuestions',JSON.stringify(selectedQuestions));
+
+
         if(selectedItem.answer===userAnswer){
             const prevScore=JSON.parse(localStorage.getItem('score'));
             const newScore=prevScore+ parseInt(selectedItem.difficultyLevel);
@@ -68,12 +83,14 @@ function Game({ loadItems, quizItems, history }) {
         setShowFinalScore(true);
         setShowQuestionDeck(false);
         setShowAnswer(false);
+        
     }
 
     const goToRulesRoute=()=>{
         localStorage.setItem('score',0);
         localStorage.setItem('wickets',0);
         localStorage.setItem('usedQuestions','[]');
+        localStorage.removeItem('name');
         history.push('/')
     }
 
@@ -81,7 +98,7 @@ function Game({ loadItems, quizItems, history }) {
         <>
        {showQuestionDeck &&  <>
         
-            <p className='game-label'>Choose Your Question {sessionStorage.getItem("name")} !</p>
+            <p className='game-label'>Choose Your Question {localStorage.getItem("name")} !</p>
             <div className='game-components'>
                 <Button buttonStyles='declare-button' label='Declare' onClickHandler={displayFinalScore}/>
                 <QuestionDeck quizItems={quizItems} displayQuestion={displayQuestion}/>
