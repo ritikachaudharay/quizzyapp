@@ -4,6 +4,7 @@
         "Contestant will select the runs. If they answer it right they score the runs if they get it wrong they lose a wicket.",
         "Lose 3 wickets and you will be eliminated from the game.",
         "The goal is to score maximum runs while losing least wickets possible.",
-        "In case contestant want to leave the quiz in middle contestant can declare."
+        "In case contestant want to leave the quiz in middle contestant can declare.",
+        "After selecting a question if contestant attempts to go back to question deck then that question will be disabled and no score or wicket will be added."
     ]
 }

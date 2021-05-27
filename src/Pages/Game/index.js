@@ -47,18 +47,16 @@ function Game({ loadItems, quizItems, history }) {
         })
         setSelectedQuestion(selQuestion);
 
+        const selectedQuestions = JSON.parse(localStorage.getItem('usedQuestions'));
+        selectedQuestions.push(id );
+        localStorage.setItem('usedQuestions',JSON.stringify(selectedQuestions));
+
         
         
     }
 
 
     const displayAnswer=(selectedItem,userAnswer)=>{
-
-       
-        const selectedQuestions = JSON.parse(localStorage.getItem('usedQuestions'));
-        selectedQuestions.push(selectedItem.id );
-        localStorage.setItem('usedQuestions',JSON.stringify(selectedQuestions));
-
 
         if(selectedItem.answer===userAnswer){
             const prevScore=JSON.parse(localStorage.getItem('score'));
