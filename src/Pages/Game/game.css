@@ -7,24 +7,75 @@
     font-weight: bold;
    
     display: block;
-    width: 250px;
+    width: 15%;
     height: 60px;
     background-color: red;
     color: white;
     border: none;
     border-radius: 8px;
     outline: none;
-    margin-left: 153px;
-    margin-right: 85px;
 
 }
 .game-components{
     display: flex;
+    width: 85vw;
+    justify-content: space-between;
+    margin-left: 5%;
  
 }
 
 .score{
-    margin-left: 80px;
     font-size: 24px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 1650px) {
+.game-components{
+    width: 90vw;
+}
+
+}
+
+@media only screen and (max-width: 1535px) {
+    .game-components{
+        width: 95vw;
+        margin-left: 2%;
+    }
+    
+    }
+
+    @media only screen and (max-width: 1366px) {
+        .declare-button{
+            width: 12%;
+            font-size: x-large;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .game-components{
+            flex-wrap: wrap;
+    
+        }
+        .score{
+            order: 2;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .declare-button{
+            width: 17%;
+            font-size: large;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .declare-button{
+            width: 25%;
+            height: 55px;
+        }
+        .game-label{
+            font-size: 20px;
+        }
+    }
+
+    

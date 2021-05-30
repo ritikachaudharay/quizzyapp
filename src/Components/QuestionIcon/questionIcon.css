@@ -1,6 +1,6 @@
 .ques-icon{
     height: 100px;
-    width: 100px;
+    width: 100%;
     background-color: #feae02;
     padding: 10px;
     box-sizing: border-box;
@@ -11,4 +11,28 @@
   
     font-size: 24px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 1470px) {
+    .ques-diff{
+        font-size: 21px;
+    }
+
+}
+
+@media only screen and (max-width: 1366px) {
+ .ques-diff{
+     font-size: 20px;
+ }
+}
+
+@media only screen and (max-width: 500px) {
+    .ques-diff{
+        font-size: 15px;
+    
+    }
+    .ques-icon{
+        height: 70px;
+        padding: 5px;
+    }
 }

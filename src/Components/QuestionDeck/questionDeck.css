@@ -1,6 +1,6 @@
 .ques-deck-container{
     background: rgb(28, 138, 228);
-    width: 850px;
+    width: 60%;
     display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: minmax(100px, auto);
@@ -8,4 +8,36 @@
   grid-column-gap: 50px;
   grid-row-gap: 30px;
   padding: 50px;
+}
+
+
+@media only screen and (max-width: 1366px) {
+  .ques-deck-container{
+    width: 67%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .ques-deck-container{
+    width: 90%;
+    order: 3;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ques-deck-container{
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin: 0 auto;
+    height: 57vh;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+.ques-deck-container{
+grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+  }
 }
