@@ -33,3 +33,11 @@
     margin: 70px auto;
     width: 1000px;
 }
+
+
+
+@media only screen and (max-width: 1024px) {
+    .ques-component{
+width: 70vw;
+}
+}

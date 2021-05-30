@@ -22,3 +22,8 @@
     margin-top: 20px;
     font-size: 48px;
 }
+@media only screen and (max-width: 768px) {
+    .answer-container{
+        width: auto;
+    }
+}
